@@ -6,10 +6,6 @@ import random
 from random import randint
 from trycourier import Courier
 import re
-from tkinter import messagebox
-import subprocess
-# import subprocess
-# subprocess.call(['echo', 'Hello, world!', '|', 'javascript', 'alert(prompt(\'This is an alert box\'))'])
 
 
 con=mysql.connector.connect(user='root',password='',host='localhost',database='data')
